@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+h1{color:purple;
+   font-display: yellow;
+ }
+
+body {
+  background:#FFCC00;
+     }
+}
+
+/* This is my navbar styling */
+nav{
+  background:blue;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+  width:50%;
+  margin:auto;
+  margintop:10%
+  /*lookup percentages and view widths */
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  text-align:center;
+}
+
+#examples {
+   margin-top: 200px;
+   margin-bottom:200px;
+   border:solid 2px blue;
+   padding:10px;
+   font:20px Helvetica;
+
+}
+
+#logo {
+  height:50px;
+  width:50px;
+  order: 3;
+
+}
+
+main img{
+  height:300px;
+  width:300px;
+}
+
+#home{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  order:5;
+}
+
+#AB {
+  order:5;
+}
+
+
+@media only screen and (max-width:600px) {
+  #logo {
+    display:none;
+
+  }
+  Body {
+    background-color:blue;
+  }
+
+p{
+  text-align:left;
+}
+ol li{
+  color:pink;
+}
